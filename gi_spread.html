@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"> 
+    <title>Grade Increase Spread Calculator</title>
+    <script src="../jQuery/jquery.js"></script>
+    <link rel="stylesheet" href="gi_spread.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
+    </style>
+</head>
+<body>
+    <h1>Grade Increase Spread Calculator</h1>
+    <div id="line"></div>
+    <form>
+        <div class="stat-input">
+            <label>CON/LOC</label>
+            <input type="number" id="con-loc" min="40" max="120">
+        </div>
+        <div class="stat-input">
+            <label>POW/VEL</label>
+            <input type="number" id="pow-vel" min="40" max="120">
+        </div>
+        <div class="stat-input">
+            <label>EYE/STA</label>
+            <input type="number" id="eye-sta" min="40" max="120">
+        </div>
+        <div class="stat-input">
+            <label>SPD/FB</label>
+            <input type="number" id="spd-fb" min="40" max="120">
+        </div>
+        <div class="stat-input">
+            <label>FLD/BRK</label>
+            <input type="number" id="fld-brk" min="40" max="120">
+        </div>
+    </form>
+    <button id="calculate">Calculate!</button>
+    <script src="gi_spread.js"></script>
+</body>
+</html>
